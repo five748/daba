@@ -1,0 +1,10 @@
+0↕dialogue_and_finger↕对话加手指⋚
+1↕none_finger↕没有手指⋚
+2↕finger↕有手指⋚
+3↕just_dialogue↕只有对话⋚
+4↕assembly_slip↕拼装界面的滑动⋚
+5↕dialog_hollow↕对话和镂空⋚
+6↕get_reward↕获得奖励⋚
+7↕fly_guide↕飞行引导中⋚
+9999↕surround_dam↕环绕大坝⋚
+88888↕pintu_slip↕拼图滑动

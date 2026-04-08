@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UIGameObject
+  - UITransform
+  - UISprite
+  - UILabel
+  - UIMenuGrid
+  - UITexture
+  - UIClick
+  - UIRoot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - battle
+  - bg
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1221469947
+    locked: 0
+  - name: Tip0
+    uniqueID: 3984370809
+    locked: 0
+  - name: Tip1
+    uniqueID: 2921494405
+    locked: 0
+  - name: Tip2
+    uniqueID: 1228353875
+    locked: 0
+  - name: Tip3
+    uniqueID: 4064787869
+    locked: 0
+  - name: Tip4
+    uniqueID: 3294455389
+    locked: 0
+  - name: Tip5
+    uniqueID: 2200313783
+    locked: 0
+  - name: Tip6
+    uniqueID: 194056551
+    locked: 0
+  - name: Tip7
+    uniqueID: 2338357425
+    locked: 0
+  - name: Tip8
+    uniqueID: 3979952911
+    locked: 0
+  - name: top
+    uniqueID: 2576597997
+    locked: 0
+  - name: guide
+    uniqueID: 1926170641
+    locked: 0
+  - name: msg
+    uniqueID: 988265245
+    locked: 0

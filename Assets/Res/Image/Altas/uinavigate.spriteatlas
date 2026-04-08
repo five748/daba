@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uinavigate
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 370d24bbcd40124499f3f13e6e4edc92, type: 3}
+    - {fileID: 21300000, guid: b0037a81629216d4b85d17ad29d62998, type: 3}
+    - {fileID: 21300000, guid: c24c93d24ee227c42b48ceb0ab8b1c32, type: 3}
+    - {fileID: 21300000, guid: 9dcefddba6bcdf240a31b49154822cf7, type: 3}
+    - {fileID: 21300000, guid: a569d893ec731784f9b118e9055a5ffe, type: 3}
+    - {fileID: 21300000, guid: 711716592ccdd3e4a91a329242b47290, type: 3}
+    - {fileID: 21300000, guid: 18c45922b0a2cee4195676b6245ec647, type: 3}
+    - {fileID: 21300000, guid: 1008ead6af344864ca073f09f00091d5, type: 3}
+    - {fileID: 21300000, guid: 381b4db7e49123347b38cf95878e3a29, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b0037a81629216d4b85d17ad29d62998, type: 3}
+  - {fileID: 21300000, guid: 18c45922b0a2cee4195676b6245ec647, type: 3}
+  - {fileID: 21300000, guid: c24c93d24ee227c42b48ceb0ab8b1c32, type: 3}
+  - {fileID: 21300000, guid: a569d893ec731784f9b118e9055a5ffe, type: 3}
+  - {fileID: 21300000, guid: 1008ead6af344864ca073f09f00091d5, type: 3}
+  - {fileID: 21300000, guid: 381b4db7e49123347b38cf95878e3a29, type: 3}
+  - {fileID: 21300000, guid: 711716592ccdd3e4a91a329242b47290, type: 3}
+  - {fileID: 21300000, guid: 370d24bbcd40124499f3f13e6e4edc92, type: 3}
+  - {fileID: 21300000, guid: 9dcefddba6bcdf240a31b49154822cf7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Iconbg_HangYunJiTuanJianZhuDi
+  - Art_HangYunJiTuanBaoCang
+  - Iconbg_HangYunJiTuanJianZhuTu
+  - Btn_HangYunJiTuanXuanZhongAnNiu
+  - Iconbg_HangYunJiTuanDengJiDi
+  - Slider_HangYunJiTuanJinDuTiao
+  - Btn_HangYunJiTuanWeiXuanZhongAnNiu
+  - Iconbg_HangYunJiTuanJinDuTiaoDi
+  - Iconbg_HangYunJiTuanFenGeXian
+  m_RenderDataMap: {}
+  m_Tag: uinavigate
+  m_IsVariant: 0

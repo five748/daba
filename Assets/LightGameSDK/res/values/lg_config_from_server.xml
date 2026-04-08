@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+
+    <!--region【必填项】cp务必替换成自己的参数-->
+
+    <!--应用名称-->
+    <string name="lg_app_name_v2">Dam_Builder_安卓_12890</string>
+
+    <!--归一化ID-->
+    <string name="lg_app_id">AEGs9iMWlh8/I+2fdW7pWk5U/aNeW8QOBjiu1ScSmUFBQfiqS0HSVlRL7cQnK5QnWVnvpEhP01lDVPaUbmLtUkNb/LBQVYcfBguq+ic3vBcdDL//IxaWHykOq4dtee1BV0Gs4gwbiQgpFKzNMja8PA4RobBGVZQOGACq1yQ6rRMXDKq8GUDXWRVXrpZma7tSS1r0ol5bxAsZErbMOQStDxoXq/0OGrkOBheQzDN550FLQeGwGBiTFh8JkNYyOK8GD0H3sF5bxAsPOK7VJxKZQUFB775eAJ4wFxe/+j4//1lZQeGwCw+5HxoGu8M4KbA8GhO9zRUTxFVUV+3YFwqq+ggouQg=</string>
+
+    <!--隐私政策更新时间，建议为游戏出包时间-->
+    <string name="lg_privacy_time_update">2024-03-18</string>
+
+    <!--隐私政策生效时间，建议为游戏出包时间-->
+    <string name="lg_privacy_time_valid">2024-03-18</string>
+
+    <!--AppLog scheme 联系运营获取，cp务必替换成自己的applog_scheme-->
+    <string name="lg_applog_scheme">rangersapplog.e716c0a310f10990</string>
+
+    <!--region【可选】账号相关配置-->
+
+    <!--一键登录，移动，AppID-->
+    <string name="lg_account_one_key_app_id_cm"></string>
+    <!--一键登录，移动，AppKey-->
+    <string name="lg_account_one_key_app_key_cm"></string>
+
+    <!--一键登录，联通，AppID-->
+    <string name="lg_account_one_key_app_id_cu"></string>
+    <!--一键登录，联通，AppKey-->
+    <string name="lg_account_one_key_app_key_cu"></string>
+
+    <!--一键登录，电信，AppID-->
+    <string name="lg_account_one_key_app_id_ct"></string>
+    <!--一键登录，电信，AppKey-->
+    <string name="lg_account_one_key_app_key_ct"></string>
+
+    <!--endregion-->
+
+
+    <!--region 【可选】推送配置-->
+    <string name="huawei_app_key"></string>
+    <string name="huawei_appId">appid\=</string>
+    <string name="umeng_message_secret"></string>
+    <string name="umeng_app_key"></string>
+    <string name="xiaomi_push_app_id"></string>
+    <string name="xiaomi_push_app_key"></string>
+    <string name="meizu_push_app_id"></string>
+    <string name="meizu_push_app_key"></string>
+    <string name="oppo_push_app_key"></string>
+    <string name="oppo_push_app_secret"></string>
+    <string name="vivo_api_key"></string>
+    <string name="vivo_app_id"></string>
+    <!--endregion-->
+
+	<!--region 【可选】支付配置-->
+    <!--用于生成支付签名，由运营提供，如果不在客户端生成签名，可不填-->
+    <string name="lg_pay_key"></string>
+    <!--endregion-->
+
+    <!--APM崩溃检测平台app_id-->
+    <string name="lg_apm_aid"></string>
+
+	<!--region 【可选】广告配置-->
+    <!--原始广告位-banner-->
+    <string-array name="lg_rit_banner">
+		
+    </string-array>
+    <!--原始广告位-激励-->
+    <string-array name="lg_rit_reward">
+		
+    </string-array>
+    <!--原始广告位-激励再看一个-->
+    <string-array name="lg_rit_reward_again">
+        
+    </string-array>
+    <!--原始广告位-插屏-->
+    <string-array name="lg_rit_interstial">
+        
+    </string-array>
+    <!--原始广告位-原生信息流-->
+    <string-array name="lg_rit_native">
+        
+    </string-array>
+    <!--兜底广告位-banner-->
+    <string name="lg_rit_banner_backup"></string>
+    <!--兜底广告位-激励-->
+    <string name="lg_rit_reward_backup"></string>
+    <!--兜底广告位-插屏-->
+    <string name="lg_rit_interstial_backup"></string>
+    <!--兜底广告位-原生信息流-->
+    <string name="lg_rit_native_backup"></string>
+
+    <!--超时时间，单位s-->
+    <integer name="lg_ad_timeout">4</integer>
+    <!--轮训最短间隔时间，单位s-->
+    <integer name="lg_ad_cache_check_time_min">60</integer>
+    <!--轮训最长间隔时间，单位s-->
+    <integer name="lg_ad_cache_check_time_max">300</integer>
+    <!--轮训递增时间，单位s-->
+    <integer name="lg_ad_cache_check_incremental_time">60</integer>
+</resources>

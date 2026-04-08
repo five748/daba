@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uidyoutsidetip
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 56b06e086c2fbd34ab894c77e68b73ab, type: 3}
+    - {fileID: 21300000, guid: b2db07ebeb850fc42846c0b37e97b558, type: 3}
+    - {fileID: 21300000, guid: a47b401f03dd2b843baa51fdd82fa88b, type: 3}
+    - {fileID: 21300000, guid: f4a86e3f9ffd8dd4c901ae5e5078bc0f, type: 3}
+    - {fileID: 21300000, guid: e5068f30063a0f346b89d5ea57fe54fe, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e5068f30063a0f346b89d5ea57fe54fe, type: 3}
+  - {fileID: 21300000, guid: 56b06e086c2fbd34ab894c77e68b73ab, type: 3}
+  - {fileID: 21300000, guid: b2db07ebeb850fc42846c0b37e97b558, type: 3}
+  - {fileID: 21300000, guid: a47b401f03dd2b843baa51fdd82fa88b, type: 3}
+  - {fileID: 21300000, guid: f4a86e3f9ffd8dd4c901ae5e5078bc0f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Iconbg_CangPinWuPinDiKuang
+  - Iconbg_CeBianLanBiaoTiDi
+  - Art_CeBianLanNeiRongTu1
+  - Art_CeBianLanNeiRongTu2
+  - Iconbg_CeBianLanJiangLiDi
+  m_RenderDataMap: {}
+  m_Tag: uidyoutsidetip
+  m_IsVariant: 0

@@ -1,0 +1,3 @@
+1↕surround_dam↕环绕大坝一周⋚
+2↕close_ui_tip↕关闭弹窗⋚
+3↕pintu_btn_hide↕隐藏拼图界面的按钮

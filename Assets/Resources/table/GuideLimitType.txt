@@ -1,0 +1,6 @@
+1↕task_begin↕任务开启⋚
+2↕task_complete↕任务完成⋚
+3↕unlock_star↕星球解锁⋚
+4↕player_die_count↕玩家死亡次数⋚
+5↕boss_die_count↕boss死亡次数⋚
+6↕skip_50010↕跳过引导

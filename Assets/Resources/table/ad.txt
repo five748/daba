@@ -1,0 +1,13 @@
+1↕addMoney↕钞票广告↕1001↕1501↕2001⋚
+2↕addDiamond↕钻石广告↕1002↕1502↕2002⋚
+3↕addPassSpeed↕加过闸速度广告↕1003↕1503↕2003⋚
+4↕addPassMoney↕翻倍过闸费用广告↕1004↕1504↕2004⋚
+5↕unlockDuanwuShip↕解锁端午船广告↕1005↕1505↕2005⋚
+6↕unlockCargoShip↕解锁运输集团运输船↕1006↕1506↕2006⋚
+7↕zhuangxiehuowu↕装卸货物清除障碍↕1007↕1507↕2007⋚
+8↕zhihuijiaotong↕指挥交通直接通关↕1008↕1508↕2008⋚
+9↕yuangongpeixun↕员工培训↕1009↕1509↕2009⋚
+10↕tianmanjizhuangxiang↕航运集团填满集装箱↕1010↕1510↕2010⋚
+11↕lijilingqucangpin↕立即领取藏品↕1011↕1511↕2011⋚
+12↕lixianshuangbeijiangli↕离线奖励双倍领取↕1012↕1512↕2012⋚
+13↕zhaoshanghuanyipi↕招商换一批广告↕1013↕1513↕2013

@@ -1,0 +1,14 @@
+1↕大坝日记↕android游戏名⋚
+2↕大坝日记↕ios游戏名⋚
+3↕大坝日记↕微信游戏名⋚
+4↕大坝日记↕抖音游戏名⋚
+5↕wx27473dda63b9f12f↕微信appid⋚
+6↕tt990cefb1063acaac07↕抖音appid⋚
+7↕adunit-52cd797913e13815↕微信广告Id⋚
+8↕4c9igjd78cc3d4rklj↕抖音广告Id⋚
+9↕https://www.resmagicgame.com↕微信资源下载地址⋚
+10↕https://www.resmagicgame.com↕抖音资源下载地址⋚
+11↕1↕微信是否开始高性能模式0:不开启 1:开启⋚
+12↕com.yuzi.Tollbooths↕android包名⋚
+13↕com.yuzi.iosTollbooths↕ios包名⋚
+14↕buider↕项目英文名

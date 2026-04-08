@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uimain
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: ef664c00c578b8c4bbfbb504e10df588, type: 3}
+    - {fileID: 21300000, guid: 38a4a10441a0e8240995b6cbe7b31d79, type: 3}
+    - {fileID: 21300000, guid: 7f81a6e0ff80130418528c033a6226ba, type: 3}
+    - {fileID: 21300000, guid: 81d2111f6f2059d4d8afca4f1a8da578, type: 3}
+    - {fileID: 21300000, guid: fc75b426e4ebf5a43b3ac977e9343257, type: 3}
+    - {fileID: 21300000, guid: 199a771806ade2e4dae48e63f3f8ba27, type: 3}
+    - {fileID: 21300000, guid: f4fae46c43c4c474fa654ba53e244e99, type: 3}
+    - {fileID: 21300000, guid: f22271d7e7925ea468af4f74b1362b2d, type: 3}
+    - {fileID: 21300000, guid: e4e97d379927a864dae5524d2dd931c5, type: 3}
+    - {fileID: 21300000, guid: 2efeb2c747fd6804db31ca8b0176be6e, type: 3}
+    - {fileID: 21300000, guid: 9b68a7129b5f3fa42998b8e335b008ff, type: 3}
+    - {fileID: 21300000, guid: b4aaa0e5cac9a8e4fb4a5a8960528969, type: 3}
+    - {fileID: 21300000, guid: e3ee45522d6d3494189ab50f13433e38, type: 3}
+    - {fileID: 21300000, guid: 67a528edc3a61354182af582696807e9, type: 3}
+    - {fileID: 21300000, guid: 39dcbee66bdb4264b89f53bd2cafb7c3, type: 3}
+    - {fileID: 21300000, guid: bac7779f3c91abf4195e352b1c7d33a8, type: 3}
+    - {fileID: 21300000, guid: 59e84671a92581d46bcba48a555438ad, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ef664c00c578b8c4bbfbb504e10df588, type: 3}
+  - {fileID: 21300000, guid: 7f81a6e0ff80130418528c033a6226ba, type: 3}
+  - {fileID: 21300000, guid: 59e84671a92581d46bcba48a555438ad, type: 3}
+  - {fileID: 21300000, guid: 9b68a7129b5f3fa42998b8e335b008ff, type: 3}
+  - {fileID: 21300000, guid: e3ee45522d6d3494189ab50f13433e38, type: 3}
+  - {fileID: 21300000, guid: 38a4a10441a0e8240995b6cbe7b31d79, type: 3}
+  - {fileID: 21300000, guid: b4aaa0e5cac9a8e4fb4a5a8960528969, type: 3}
+  - {fileID: 21300000, guid: fc75b426e4ebf5a43b3ac977e9343257, type: 3}
+  - {fileID: 21300000, guid: 39dcbee66bdb4264b89f53bd2cafb7c3, type: 3}
+  - {fileID: 21300000, guid: e4e97d379927a864dae5524d2dd931c5, type: 3}
+  - {fileID: 21300000, guid: 2efeb2c747fd6804db31ca8b0176be6e, type: 3}
+  - {fileID: 21300000, guid: f22271d7e7925ea468af4f74b1362b2d, type: 3}
+  - {fileID: 21300000, guid: 199a771806ade2e4dae48e63f3f8ba27, type: 3}
+  - {fileID: 21300000, guid: f4fae46c43c4c474fa654ba53e244e99, type: 3}
+  - {fileID: 21300000, guid: 67a528edc3a61354182af582696807e9, type: 3}
+  - {fileID: 21300000, guid: 81d2111f6f2059d4d8afca4f1a8da578, type: 3}
+  - {fileID: 21300000, guid: bac7779f3c91abf4195e352b1c7d33a8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Iconbg_ZhuJieMianJinDuDi
+  - Icon_luntai
+  - Iconbg_ZhuJieMianShengJiXingXing
+  - Icon_honglvdeng
+  - Iconbg_ZhuJieMianShengJiJianTou
+  - Iconbg_HangYunYouXiaJiao
+  - Icon_jiushengting
+  - Icon_shoufeizhan
+  - Icon_dengta
+  - Iconbg_ZhuJieMianDuiHuaKuang
+  - Icon_jiqi
+  - Iconbg_ZhuJieMianShengJiGuangShu
+  - Icon_qianmen_guan
+  - Icon_xiansu
+  - Icon_diaoji
+  - Slider_ZhuJieMianJinDuTiao
+  - Icon_pingtai
+  m_RenderDataMap: {}
+  m_Tag: uimain
+  m_IsVariant: 0

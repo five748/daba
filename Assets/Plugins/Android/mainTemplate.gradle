@@ -1,0 +1,117 @@
+﻿apply plugin: 'com.android.library'
+// LG_AllProjects Start,此行注释不能删除，用于自动化标记使用
+allprojects {
+    repositories {
+        // LG_Maven仓库地址配置 Start，此行注释不能删除，用于自动化标记使用
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/jcenter"
+        }
+        maven {
+            url 'https://dl.bintray.com/ttgamesdk/public'
+        }
+        // LG_Maven仓库地址配置 End，此行注释不能删除，用于自动化标记使用
+        google()
+        jcenter()      
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+// LG_AllProjects End,此行注释不能删除，用于自动化标记使用
+// LG_BuildScript Start,此行注释不能删除，用于自动化标记使用
+buildscript {
+    repositories {
+        // LG_Maven仓库地址配置 Start，此行注释不能删除，用于自动化标记使用
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/jcenter"
+        }
+        maven {
+            url 'https://dl.bintray.com/ttgamesdk/public'
+        }
+        // LG_Maven仓库地址配置 End，此行注释不能删除，用于自动化标记使用
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+**BUILD_SCRIPT_DEPS**}
+}
+// LG_BuildScript End,此行注释不能删除，用于自动化标记使用
+**APPLY_PLUGINS**
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // LG_Core_Start，此行注释不能删除，用于自动化标记使用
+    // v4、v7包
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation "com.android.support:appcompat-v7:26.1.0"
+    implementation "com.android.support:recyclerview-v7:26.1.0"
+    // LG_Core_End，此行注释不能删除，用于自动化标记使用
+    // LG_MultiDex Start，此行注释不能删除，用于自动化标记使用
+    // multiDex
+    implementation 'com.android.support:multidex:1.0.3'
+    // LG_MultiDex End，此行注释不能删除，用于自动化标记使用
+    // LG_Account_Login Start，此行注释不能删除，用于自动化标记使用
+    //以下三个库是对抖音授权登录 需要的库
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    //appclound平台 手机号+验证码登录
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    // 用于展示登录后logo动画
+    implementation "pl.droidsonroids.gif:android-gif-drawable:1.2.18"
+    // LG_Account_Login End，此行注释不能删除，用于自动化标记使用
+    // LG_GPSDK Start，此行注释不能删除，用于自动化标记使用
+    // 安全sdk需要的依赖
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    // LG_GPSDK End，此行注释不能删除，用于自动化标记使用
+**DEPS**}
+
+android {
+    // LG_Account_OAID Start，此行注释不能删除，用于自动化标记使用
+    // 信通院sdk设置
+    packagingOptions {
+        doNotStrip "*/armeabi-v7a/*.so"
+        doNotStrip "*/x86/*.so"
+        doNotStrip "*/arm64-v8a/*.so"
+        doNotStrip "*/x86_64/*.so"
+        doNotStrip "armeabi.so"
+    }
+    // LG_Account_OAID End，此行注释不能删除，用于自动化标记使用
+    compileSdkVersion **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        multiDexEnabled true
+        minSdkVersion 19
+        targetSdkVersion **TARGETSDKVERSION**
+        ndk {
+            abiFilters **ABIFILTERS**
+        }
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING_OPTIONS**
+}**REPOSITORIES**
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**

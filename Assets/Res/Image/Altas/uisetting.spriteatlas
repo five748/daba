@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uisetting
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 1
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 0
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 71c78d5ade5ce11469bf9fdbe68e363c, type: 3}
+    - {fileID: 21300000, guid: 3a62c632559309f46897e99ac3843451, type: 3}
+    - {fileID: 21300000, guid: 5c3f90caa50e39745a71ffc4bc6afce9, type: 3}
+    - {fileID: 21300000, guid: b3df3df4f828ac4409ed42ef3bdcc744, type: 3}
+    - {fileID: 21300000, guid: 0b70f3a9e025c034089c6d217eae13a1, type: 3}
+    - {fileID: 21300000, guid: fbffadc0e32213c418788573f91672ec, type: 3}
+    - {fileID: 21300000, guid: 08e46d37dea59514aab0bec9cd9e579a, type: 3}
+    - {fileID: 21300000, guid: d3654bc71eccbb44395ee71a343cc2bf, type: 3}
+    - {fileID: 21300000, guid: 719ebe6e05c742341ac6b2bf8c1a77ef, type: 3}
+    - {fileID: 21300000, guid: 59f6897b3572d8147be315eaf5f2c0bf, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fbffadc0e32213c418788573f91672ec, type: 3}
+  - {fileID: 21300000, guid: 3a62c632559309f46897e99ac3843451, type: 3}
+  - {fileID: 21300000, guid: b3df3df4f828ac4409ed42ef3bdcc744, type: 3}
+  - {fileID: 21300000, guid: 08e46d37dea59514aab0bec9cd9e579a, type: 3}
+  - {fileID: 21300000, guid: d3654bc71eccbb44395ee71a343cc2bf, type: 3}
+  - {fileID: 21300000, guid: 0b70f3a9e025c034089c6d217eae13a1, type: 3}
+  - {fileID: 21300000, guid: 71c78d5ade5ce11469bf9fdbe68e363c, type: 3}
+  - {fileID: 21300000, guid: 5c3f90caa50e39745a71ffc4bc6afce9, type: 3}
+  - {fileID: 21300000, guid: 59f6897b3572d8147be315eaf5f2c0bf, type: 3}
+  - {fileID: 21300000, guid: 719ebe6e05c742341ac6b2bf8c1a77ef, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Btn_XuanZeFuWuQiXuanZhongAnNiu
+  - Iconbg_SheZhiHengTiaoKuangDi
+  - Btn_SheZhiLanSeAnNiu
+  - Btn_SheZhiChengSeAnNiu
+  - Btn_SheZhiXiaoLanSeAnNiu
+  - Btn_XuanZeFuWuQiWeiXuanZhongAnNiu
+  - Btn_SheZhiWeiDaGouAnNiu
+  - Style_SheZhiXuXianFenGe
+  - Icon_SheZhiZhenDongTuBiao
+  - Style_SheZhiHengTiaoZhuangShi
+  m_RenderDataMap: {}
+  m_Tag: uisetting
+  m_IsVariant: 0

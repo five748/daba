@@ -1,0 +1,12 @@
+1↕guanbizanzhuCD↕180↕关闭赞助下一次出现入口的时间↕广告系统⋚
+2↕guankanzanzhuCD↕120↕每日看广告次数↕广告系统⋚
+101↕zhiyuanpeixunxiaohao↕2↕2钻石每次↕职员培训⋚
+201↕wanmeizhuangzai↕25↕完美装载额外奖励钻石数量↕装卸货物⋚
+301↕zhihuijiaotongguanggaobeishu↕5↕指挥交通广告倍数↕指挥交通⋚
+401↕defOffLineTime↕120↕默认的离线时长(600秒）↕默认的离线时长⋚
+501↕zuanshijianglishuliang↕[2,5]↕钻石奖励数量↕藏品系统⋚
+601↕lixianxishu↕0.4↕离线产出系数↕离线系统⋚
+701↕qingxihangdao↕1↕清洗航道纸币奖励系数（有单独的养成进度系数了↕清洗航道⋚
+801↕hangyunguanggaobeishu↕5↕航运广告倍数↕航运⋚
+901↕sheshijiesuobuguanbi↕20↕id>20的设施，解锁设施就不关闭设施界面了↕设施⋚
+902↕cebianlanjinrujiangli↕[2,20,1,3]↕侧边栏进入奖励,钞票需要*养成系数，钻石不需要↕
